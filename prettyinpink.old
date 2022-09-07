@@ -1,0 +1,26 @@
+[colors]
+foreground=fbc5cb #Pink
+background=191724 #
+regular0=444444   # black
+regular1=eb6f92   # red
+regular2=b7edc4   # green
+regular3=ffda90   # yellow
+regular4=64a7c2   # blue
+regular5=c4a7e7   # magenta
+regular6=93e0e3   # cyan   
+regular7=e0def4   # white
+bright0=565656    # light black
+bright1=ffa2c5    # light red
+bright2=e0ffed    # light green
+bright3=fff4aa    # light yellow
+bright4=97daf5    # light blue
+bright5=efd2ff    # light magenta
+bright6=ccffff    # light cyan
+bright7=f9f7ff	  # light white
+16=ffd4e0         # light pink
+17=434152         # surface
+18=696876         # highlight low
+19=26233a         # overlay
+20=646176         # highlight med
+21=76738b         # highlight high
+22=b4b0ce         # subtle

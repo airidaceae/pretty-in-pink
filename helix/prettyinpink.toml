@@ -5,21 +5,21 @@
 "ui.menu" = { fg = "text", bg = "overlay" }
 "ui.menu.selected" = { fg = "iris", bg = "surface" }
 "ui.linenr" = { fg = "subtle" }
-"ui.linenr.selected" = { fg = "pink", modifiers = ["bold"] }
+"ui.linenr.selected" = { fg = "peach", modifiers = ["bold"] }
 "ui.selection" = { bg = "highlightMed" }
 "comment" = "subtle"
 "ui.statusline" = {fg = "text", bg = "base" }
 "ui.statusline.insert" = {fg = "base", bg = "ice", modifiers = ["bold"]}
-"ui.statusline.normal" = {fg = "base", bg = "pink", modifiers = ["bold"]}
+"ui.statusline.normal" = {fg = "base", bg = "peach", modifiers = ["bold"]}
 "ui.statusline.select" = {fg = "base", bg = "iris", modifiers = ["bold"]}
 "ui.statusline.inactive" = { fg = "subtle", bg = "surface" }
-"ui.cursor" = { fg = "pink", modifiers = ["reversed"] }
+"ui.cursor" = { fg = "peach", modifiers = ["reversed"] }
 "ui.highlight" = { bg = "highlightLow"}
 "ui.text" = { fg = "text" }
 "ui.text.focus" = { fg = "ice", modifiers = ["bold"]}
 "ui.text.info" = {fg = "sea", modifiers = ["bold"]}
-"ui.virtual.whitespace" = "text"
-"operator" = "pink"
+"ui.virtual.whitespace" = "muted"
+"operator" = "subtle"
 "variable" = "text"
 "variable.parameter" = {fg = "kiss", modifiers = ["italic"] }
 "constant.numeric" = "iris"
@@ -30,8 +30,8 @@
 "string" = "gold"
 "property" = "ice"
 "constant.character.escape" = "subtle"
-"function" = "pink"
-"function.builtin" = "pink"
+"function" = "peach"
+"function.builtin" = "peach"
 "function.method" = "ice"
 "constructor" = "gold"
 "special" = "gold"
@@ -54,9 +54,9 @@
 "error" = "kiss"
 
 "markup.heading.marker" = "subtle"
-"markup.heading.1" = { fg = "pink", modifiers = ["bold"] }
+"markup.heading.1" = { fg = "peach", modifiers = ["bold"] }
 "markup.heading.2" = { fg = "gold", modifiers = ["bold"] }
-"markup.heading.3" = { fg = "pink", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "peach", modifiers = ["bold"] }
 "markup.heading.4" = { fg = "sea", modifiers = ["bold"] }
 "markup.heading.5" = { fg = "ice", modifiers = ["bold"] }
 "markup.heading.6" = { fg = "iris", modifiers = ["bold"] }
@@ -69,25 +69,26 @@
 "markup.raw" = { fg = "ice" }
 
 [palette]
-backgr 	= "#29030855"
-base 	= "#191724"
+backgr = "#29030855"
+base = "#191724"
 surface = "#1f1d2e"
 overlay = "#26233a"
 inactive= "#5b5579"
-subtle 	= "#6272a4"
-muted 	= "#6e6a86"
-text 	= "#ffdbec"
-kiss 	= "#e43e6d"
-gold 	= "#f6c177" 
-pink 	= "#e4a5a2"
-sea 	= "#2593be"
-ice	= "#00c8c8"
-iris 	= "#d68bff"
+subtle = "#6272a4"
+muted = "#6e6a86"
+text = "#ffdbec"
+kiss = "#e43e6d"
+gold = "#f6c177" 
+peach = "#e4a5a2"
+pink = "#f3b1c9"
+sea = "#2593be"
+ice = "#00c8c8"
+iris = "#d68bff"
 cold = "#1dffff"
 lush = "#008665"
 snow = "#e0def4"
-highlightLow 	  = "#696876"
-highlightMed 	  = "#646176"
-highlightHigh	  = "#76738b"
+highlightLow = "#696876"
+highlightMed = "#646176"
+highlightHigh = "#76738b"
 highlightInactive = "#211f2d"
 highlightOverlay  = "#3a384a"

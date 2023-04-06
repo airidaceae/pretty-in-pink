@@ -7,7 +7,7 @@
 "ui.linenr" = { fg = "subtle" }
 "ui.linenr.selected" = { fg = "peach", modifiers = ["bold"] }
 "ui.selection" = { bg = "highlightMed" }
-"comment" = "subtle"
+"comment" = {fg = "subtle", modifiers = ["italic"] }
 "ui.statusline" = {fg = "text", bg = "base" }
 "ui.statusline.insert" = {fg = "base", bg = "ice", modifiers = ["bold"]}
 "ui.statusline.normal" = {fg = "base", bg = "peach", modifiers = ["bold"]}
@@ -19,6 +19,9 @@
 "ui.text.focus" = { fg = "ice", modifiers = ["bold"]}
 "ui.text.info" = {fg = "sea", modifiers = ["bold"]}
 "ui.virtual.whitespace" = "muted"
+"ui.virtual.inlay-hint" = {fg = "subtle", modifiers = ["italic"]}
+"ui.virtual.inlay-hint.parameter" =  {fg = "subtle", modifiers = ["italic"]}
+"ui.virtual.inlay-hint.type" = {fg = "subtle", modifiers = ["italic"]}
 "operator" = "text"
 "variable" = {fg = "text", modifiers = ["italic"] }
 "variable.parameter" = {fg = "iris", modifiers = ["italic"] }
@@ -53,9 +56,10 @@
 
 "info" = "gold"
 "hint" = "gold"
-"debug" = "kiss"
-"diagnostic" = "rose"
 "error" = "kiss"
+"diagnostic.error" = { underline = { style = "curl", color = "red" } }
+"diagnostic.info" = { underline = { style = "curl", color = "red" } }
+"diagnostic.hint" = { underline = { style = "curl", color = "red" } }
 
 "markup.heading.marker" = "subtle"
 "markup.heading.1" = { fg = "peach", modifiers = ["bold"] }
@@ -73,7 +77,7 @@
 "markup.raw" = { fg = "ice" }
 
 [palette]
-backgr = "#29030855"
+backgr = "#290308"
 base = "#191724"
 surface = "#1f1d2e"
 overlay = "#26233a"
@@ -88,6 +92,7 @@ pink = "#f3b1c9"
 sea = "#2593be"
 ice = "#00c8c8"
 iris = "#bb9aff"
+yoru = "#693cc7"
 cold = "#9ccfd8"
 lush = "#008665"
 snow = "#e0def4"
